@@ -8,3 +8,19 @@
 * [FetchData](#FetchData)
 * [RegexWebScrap](#RegexWebScrap)
 * [WebScraping](#WebScraping)
+
+
+
+# complexQuery
+
+# csv2sql
+
+# DataCleanse
+
+# ExtractEntityfromTEXT
+
+# FetchData
+
+# RegexWebScrap
+
+# WebScraping
