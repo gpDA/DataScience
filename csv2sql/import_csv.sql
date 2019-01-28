@@ -1,0 +1,2 @@
+-- write your COPY statement to import a csv here
+COPY qol (age, gender, ethnicity, maritial_status, household_size, spouse, parent, friends, religion, full_time, part_time, retired, income, us_born, duration_residency, familiarity_america, major_language, satisfaction) FROM '/Users/geonpyunglee/Desktop/school/datamanagement/hw4/gpDA-homework04/AsianAmericanQoL.csv' csv HEADER encoding 'windows-1251';

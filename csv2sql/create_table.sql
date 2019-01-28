@@ -1,0 +1,22 @@
+-- write your table creation sql here!
+CREATE TABLE qol(
+ person_id SERIAL PRIMARY KEY,
+ age INTEGER NOT NULL,
+ gender VARCHAR (100) NOT NULL,
+ ethnicity VARCHAR (100) NOT NULL,
+ maritial_status VARCHAR (100) NOT NULL,
+ household_size integer NOT NULL,
+ spouse VARCHAR (100) NOT NULL,
+ parent VARCHAR (100) NOT NULL,
+ friends VARCHAR (100) NOT NULL,
+ religion VARCHAR (100) NOT NULL,
+ full_time VARCHAR (100) NOT NULL,
+ part_time VARCHAR (100) NOT NULL,
+ retired VARCHAR (100) NOT NULL,
+ income NUMERIC (10, 2),
+ us_born VARCHAR (100) NOT NULL,
+ duration_residency NUMERIC (10, 2),,
+ familiarity_america VARCHAR (100) NOT NULL,
+ major_language VARCHAR (100) NOT NULL,
+ satisfaction VARCHAR (100) NOT NULL,
+);
